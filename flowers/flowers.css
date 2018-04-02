@@ -6,15 +6,9 @@ header{
 ul{
   padding-top: 80px;
   padding-bottom: 80px;
-  border-width: 10px;
+  border-width: 2px;
   color: black;
   border: solid;
-  border-radius: 5%;
-}
-
-nav{
-  float: left;
-  
 }
 
 a{
@@ -23,7 +17,6 @@ a{
   border: black;
   padding-top: 80px;
   padding-bottom: 80px;
-
 }
 
 footer{
@@ -55,7 +48,6 @@ input.contact-enter{
 label{
   text-align: center;
   font-size: 11px;
-
 }
 
 @media screen and (max-width: 1200px) {
