@@ -1,0 +1,101 @@
+header{
+  text-align: center;
+  font-size: 25px;
+}
+
+ul{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-width: 10px;
+  color: black;
+  border: solid;
+  border-radius: 5%;
+}
+
+nav{
+  float: left;
+  
+}
+
+a{
+	color: black;
+	border-width: 10px;
+  border: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+}
+
+footer{
+  border: solid;
+  color: black;
+  border-width: 10px;
+  padding-top: 30px;
+}
+
+form{
+  border: solid;
+  color: black;
+  border-width: 2px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+input{
+  text-align: center;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+input.contact-enter{
+  padding-right: 20px;
+}
+
+
+label{
+  text-align: center;
+  font-size: 11px;
+
+}
+
+@media screen and (max-width: 1200px) {
+nav{
+  text-align: left;
+  font-size: 30px;
+  padding: 40px;
+  margin-top: 100px;
+  background-color: purple;
+  }
+  header{
+  border: solid;
+  color: black;
+  border-width: 2px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 100%;
+ }
+}
+
+@media screen and (max-width: 800px){
+form{
+  width: 100%;
+  background-color: green;
+}
+
+}
+
+@media screen and (max-width: 660px){
+header{
+  border: solid;
+  color: black;
+  border-width: 2px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 100%;
+ }
+ nav{
+  background-color: red;
+ }
+}
+
+

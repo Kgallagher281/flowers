@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flowers Exercise</title>
+	<link rel="stylesheet" href="flowers.css">
+</head>
+<body>
+	<header>Demo Exerise</header>
+<div class="col1">
+	<nav>
+		<ul>
+		<a href="Drinks.html" style="color:black">Services</a><br>
+		<a href="Drinks.html" style="color:black" >Experience</a><br>
+		<a href="clairebio.html" style="color:black" >Biography</a><br>
+		<a href="contactinfo.html" style="color:black">Contact Information</a>
+		 </ul>
+	</nav>
+</div>
+<form name="myForm"  onsubmit="return validateForm()">
+	<div class="contact">
+            <label for="name">Name</label>
+            <span class="req">*</span></label>
+            <input type="text" name="name"/>
+            </p>
+		<p class="contact">
+            <label for="email">Email</label>
+            <span class="req">*</span></label>
+            <input type="email" name="email"/>
+          </p>
+
+        <p class="contact">
+            <label for="phone">Phone</label>
+            <span class="req">*</span></label>
+            <input type="phone" maxlength="10" name="phone"/>
+          </p>
+
+        <p class="contact">
+            <label for="subject">Subject</label>
+            <span class="req">*</span></label>
+            <input type="subject" name="subject"/>
+          </p>
+        
+        <p class="contact">
+            <label for="message">Message</label>
+            <span class="req">*</span></label>
+            <input class="message" type="message" maxlength="250" height="400px" name="message"/>
+          </p>
+          
+        <p>
+          <input class="contact-enter"  type="submit"  value="Submit"/>
+        </p>
+   </div>
+</form>
+
+
+<script src="flowers.js"></script>
+
+<footer>
+  <p>Posted by: Kevin Gallagher</p>
+  <p>Contact information: <a href="kgallagher@1800flowers.com">
+  kgallagher@1800flowers.com</a></p>
+</footer>
+</body>
+</html>
